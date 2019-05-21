@@ -1,3 +1,4 @@
-import trialpkg
+from trialpkg import trial
 
-print(trial.trial1)
+r = trial.run()
+print(r.trial1())
